@@ -1,7 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:Bold+700');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash:Regular+400');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,38 +12,43 @@ Fonts are separated by a | */
   --accent2-color: #E63262;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "UnifraktureCook:Bold 700";
+  --subheading-font: "Berkshire Swash:Regular 400"
+  --paragraph-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-white: #451143;  /* headlines on a white background */ 
+  --headline-color-on-color: #262644; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
-  --nav-link-color: #396E94;
-  --nav-background-color: #E7C24F;
-  --nav-hover-link-color: #E7C24F;
-  --nav-hover-background-color: #396E94;
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #AED1EA;
+  --nav-link-color: #FFDF8E;
+  --nav-background-color: #262644;
+  --nav-hover-link-color: #E63262;
+  --nav-hover-background-color: #451143;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 html {
-  background-color: var(--primary-color);
+  background-color: #AED1EA;
 }
 body {
   max-width: 940px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #AED1EA;
   padding: 1em;
 }
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+h1, h2, h3, h4, h6 {
+  font-family: UnifrakturCook Bold ;
   color: var(--headline-color-on-white);
+}
+h5 {
+  font-family: ;
+  color: ;
 }
 header {
   padding: 1em;
