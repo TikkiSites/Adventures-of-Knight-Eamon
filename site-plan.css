@@ -1,18 +1,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:Bold+700');
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash:Regular+400');
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook|Berkshire+Swash');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #CEE3F2;
   --secondary-color: #451143;
   --accent1-color: #FFDF8E;
-  --accent2-color: #E63262;
+  --accent2-color: #F6B6C7;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "UnifraktureCook:Bold 700";
+  --heading-font: "UnifraktureCook";
   --subheading-font: "Berkshire Swash:Regular 400"
   --paragraph-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
@@ -24,7 +23,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #CEE3F2;
   --nav-link-color: #FFDF8E;
   --nav-background-color: #262644;
-  --nav-hover-link-color: #E63262;
+  --nav-hover-link-color: #F6B6C7;
   --nav-hover-background-color: #451143;
 }
 
