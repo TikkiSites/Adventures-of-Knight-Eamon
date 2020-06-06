@@ -6,7 +6,7 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #AED1EA;
+  --primary-color: #CEE3F2;
   --secondary-color: #451143;
   --accent1-color: #FFDF8E;
   --accent2-color: #E63262;
@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --headline-color-on-color: #262644; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #AED1EA;
+  --paragraph-background-color: #CEE3F2;
   --nav-link-color: #FFDF8E;
   --nav-background-color: #262644;
   --nav-hover-link-color: #E63262;
@@ -31,24 +31,20 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 html {
-  background-color: #AED1EA;
+  background-color: var(--primary-color);
 }
 body {
   max-width: 940px;
   margin: 0 auto;
-  background-color: #AED1EA;
+  background-color: white;
   padding: 1em;
 }
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h6 {
-  font-family: UnifrakturCook Bold ;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
   color: var(--headline-color-on-white);
-}
-h5 {
-  font-family: ;
-  color: ;
 }
 header {
   padding: 1em;
