@@ -19,6 +19,15 @@ h1 {
 p {
   text-indent: 30px;
 }
+#nagigation {
+  
+}
+nav ul {
+  list-syle: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fir, minmax())
+}
 #content {
   max-width: 960px;
   margin: 0 auto;
@@ -36,7 +45,8 @@ body {
 }
 .sidebar {
   grid-column: 1/2;
-  grid-row: 1;
+  grid-row: 1/11;
+  background-color: #262644;
 }
 .home-illustration {
   grid-column: 2/5;
