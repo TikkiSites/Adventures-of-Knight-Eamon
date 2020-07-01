@@ -26,8 +26,41 @@ nav ul {
   list-syle: none;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fir, minmax())
+  grid-template-columns: repeat(auto-fir, minmax(7em, 1fr));
+  align-items: center;
 }
+nav {
+  background-color: # ;
+}
+nav a {
+  color: # ;
+  text-decoration: none;
+}
+nav a:hover {
+  color: # ;
+  background-color: # ;
+}
+nav a:visited {
+  color: # ;
+}
+nav a:active {
+  background-color: # ;
+}
+footer {
+  color: # ;
+  background-color: # ;
+  display: grid;
+  grid-template-columns: auto 80px 80px 80px;
+  align-items: center;
+}
+footer img {
+  margin: 10px;
+  size: 100px;
+}
+footer p {
+  margin: 10px;
+}
+
 #content {
   max-width: 960px;
   margin: 0 auto;
