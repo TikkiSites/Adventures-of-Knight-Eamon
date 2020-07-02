@@ -28,7 +28,7 @@ p {
 header {
   font-family: "UnifrakturCook", "New Rocker", cursive;
   font-size: 1.5em;
-  background-color: #DFB7F6;
+  background-color: #EEC2FF;
   padding: 10px;
   display: grid;
   grid-template-columns: 110px auto;
@@ -48,21 +48,21 @@ nav ul {
   align-items: center;
 }
 nav {
-  background-color: # ;
+  background-color: # EEC2FF;
 }
 nav a {
   color: #262644;
   text-decoration: none;
 }
 nav a:hover {
-  color: # ;
-  background-color: # ;
+  color: #F6B6C7;
+  background-color: #451143;
 }
 nav a:visited {
-  color: # ;
+  color: #451143;
 }
 nav a:active {
-  background-color: # ;
+  background-color: #FFDF8E;
 }
 footer {
   color: # ;
