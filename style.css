@@ -19,14 +19,24 @@ h1 {
 p {
   text-indent: 30px;
 }
+header {
+  background-color: # ;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 110px auto;
+  align-items: center;
+}
+.logo {
+  
+}
 #nagigation {
   
 }
 nav ul {
-  list-syle: none;
+  list-style: none;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fir, minmax(7em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
   align-items: center;
 }
 nav {
@@ -55,7 +65,7 @@ footer {
 }
 footer img {
   margin: 10px;
-  size: 100px;
+  height: 50px;
 }
 footer p {
   margin: 10px;
