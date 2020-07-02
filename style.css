@@ -80,11 +80,15 @@ nav a:visited:active {
   color: #262644;
 }
 footer {
-  color: # ;
+  color: #262644;
   background-color: #EEC2FF;
   display: grid;
   grid-template-columns: auto 80px 80px 80px;
   align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #262644;
 }
 footer img {
   margin: 10px;
