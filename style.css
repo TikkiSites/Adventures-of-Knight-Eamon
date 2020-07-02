@@ -1,12 +1,19 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap|New+Rocker|Berkshire+Swash')
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap|New+Rocker|Berkshire+Swash');
 
 h1, h2, h3, h4, h5, h6 {
   color: #262644;
-  font-family: "UnifrakturCook", "New Rocker", cursive";
+  font-family: "UnifrakturCook", "New Rocker", cursive;
 }
+h3, h4 {
+  font-family: "Berkshire Swash", "New Rocker", cursive;
+}
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
