@@ -55,7 +55,7 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: #F6B6C7;
+  color: #FBDBE3;
   background-color: #451143;
   border: 1px solid #ccc;
   padding: 10px;
@@ -64,8 +64,8 @@ nav a:hover {
 nav a:visited {
   color: #451143;
 }
-nav a:visited:hover:active {
-  color: #F6B6C7;
+nav a:visited:hover {
+  color: #FBDBE3;
   background-color: #451143;
   border: 1px solid #ccc;
   padding: 10px;
@@ -73,10 +73,15 @@ nav a:visited:hover:active {
 }
 nav a:active {
   background-color: #FFDF8E;
+  color: #262644;
+}
+nav a:visited:active {
+  background-color: #FFDF8E;
+  color: #262644;
 }
 footer {
   color: # ;
-  background-color: # ;
+  background-color: #EEC2FF;
   display: grid;
   grid-template-columns: auto 80px 80px 80px;
   align-items: center;
@@ -109,6 +114,14 @@ body {
   grid-row: 1/11;
   background-color: #262644;
   justify-items: center;
+  color: #CEE3F2;
+}
+.sidebar a {
+  color: #FBDBE3;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  color: #CEE3F2;
 }
 .home-illustration {
   grid-column: 2/5;
