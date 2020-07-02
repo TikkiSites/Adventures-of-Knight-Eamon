@@ -10,9 +10,6 @@ h1, h2, h3, h4, h5, h6 {
 h3, h4 {
   font-family: "Berkshire Swash", "New Rocker", cursive;
 }
-p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
 
 body {
   background-color: white;
@@ -30,6 +27,7 @@ h1 {
 
 p {
   text-indent: 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 header {
   background-color: #7EAEC9;
