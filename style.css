@@ -28,7 +28,7 @@ p {
 header {
   font-family: "UnifrakturCook", "New Rocker", cursive;
   font-size: 1.5em;
-  background-color: #7EAEC9;
+  background-color: #DFB7F6;
   padding: 10px;
   display: grid;
   grid-template-columns: 110px auto;
@@ -51,7 +51,7 @@ nav {
   background-color: # ;
 }
 nav a {
-  color: # ;
+  color: #262644;
   text-decoration: none;
 }
 nav a:hover {
