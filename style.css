@@ -20,6 +20,7 @@ body {
   font-size: 18px;
   margin: 0;
   color: #444;
+  padding: 15px;
 }
 p {
   text-indent: 30px;
@@ -33,6 +34,11 @@ header {
   display: grid;
   grid-template-columns: 110px auto;
   align-items: center;
+}
+img {
+  max-width: 100%;
+  border: 3px solid #262644;
+  margin: 10px;
 }
 .logo {
   
@@ -124,6 +130,7 @@ section .sidebar {
   grid-row: 1/11;
   background-color: #262644;
   color: #CEE3F2;
+  padding: 15px;
 }
 .sidebar a {
   color: #FBDBE3;
