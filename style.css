@@ -1,7 +1,12 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap|New+Rocker|Berkshire+Swash')
 
+h1, h2, h3, h4, h5, h6 {
+  color: #262644;
+  font-family: "UnifrakturCook", "New Rocker", cursive";
+}
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
@@ -20,7 +25,7 @@ p {
   text-indent: 30px;
 }
 header {
-  background-color: #4889AD;
+  background-color: #7EAEC9;
   padding: 10px;
   display: grid;
   grid-template-columns: 110px auto;
@@ -90,6 +95,7 @@ body {
   grid-column: 1/2;
   grid-row: 1/11;
   background-color: #262644;
+  justify-items: center;
 }
 .home-illustration {
   grid-column: 2/5;
