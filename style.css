@@ -131,6 +131,7 @@ section .sidebar {
   background-color: #262644;
   color: #CEE3F2;
   padding: 15px;
+  justify-content: center;
 }
 .sidebar a {
   color: #FBDBE3;
