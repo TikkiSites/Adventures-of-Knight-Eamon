@@ -57,9 +57,19 @@ nav a {
 nav a:hover {
   color: #F6B6C7;
   background-color: #451143;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
 }
 nav a:visited {
   color: #451143;
+}
+nav a:visited:hover:active {
+  color: #F6B6C7;
+  background-color: #451143;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999; 
 }
 nav a:active {
   background-color: #FFDF8E;
