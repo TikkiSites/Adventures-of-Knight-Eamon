@@ -31,7 +31,7 @@ p {
 header {
   font-family: "UnifrakturCook", "New Rocker", cursive;
   font-size: 1.5em;
-  background-color: #EEC2FF;
+  background-color: #262644;
   padding: 10px;
   display: grid;
   grid-template-columns: 110px auto;
@@ -44,6 +44,10 @@ img {
   background-color: #F6B6C7;
   border-radius: 50px 50px 0 0;
   border: 3px solid #FFDF8E; 
+}
+.logo img {
+  width: 50%;
+  hight: 50%;
 }
 #nagigation {
   
@@ -59,7 +63,7 @@ nav {
   background-color: # EEC2FF;
 }
 nav a {
-  color: #262644;
+  color: #F6B6C7;
   text-decoration: none;
 }
 nav a:hover {
@@ -70,12 +74,12 @@ nav a:hover {
   box-shadow: 5px 5px 5px #999;
 }
 nav a:visited {
-  color: #451143;
+  color: #FFDF8E;
 }
 nav a:visited:hover {
   color: #FBDBE3;
   background-color: #451143;
-  border: 1px solid #ccc;
+  border: 1px solid #F6B6C7;
   padding: 10px;
   box-shadow: 5px 5px 5px #999; 
 }
@@ -127,14 +131,14 @@ section .sidebar {
 .sidebar {
   grid-column: 1/2;
   grid-row: 1/12;
-  background-color: #262644;
-  color: #CEE3F2;
+  background-color: #FFDF8E;
+  color: #262644;
   padding: 15px;
   margin: 0 auto;
   text-align: center;
 }
 .sidebar a {
-  color: #FBDBE3;
+  color: #451143;
   text-decoration: none;
 }
 .sidebar a:hover {
