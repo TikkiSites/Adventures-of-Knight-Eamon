@@ -17,11 +17,10 @@ h3, h4 {
 body {
   background-color: #CEE3F2;
   font-family: "Open Sans", sans-serif;
-  padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
-  padding: 15px;
+  
 }
 p {
   text-indent: 30px;
@@ -142,7 +141,7 @@ section .sidebar {
   color: #CEE3F2;
 }
 .sidebar-img {
-  width: 150px;
+  width: 90%;
 }
 .new-chapter p {
   text-indent: 0px;
