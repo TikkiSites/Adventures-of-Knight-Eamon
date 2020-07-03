@@ -26,6 +26,7 @@ body {
 p {
   text-indent: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: justify;
 }
 header {
   font-family: "UnifrakturCook", "New Rocker", cursive;
