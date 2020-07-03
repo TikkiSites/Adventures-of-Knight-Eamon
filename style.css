@@ -5,16 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h5, h6 {
   color: #262644;
   font-family: "UnifrakturCook", "New Rocker", cursive;
+  margin: 30px 0 -30px;
 }
 h3, h4 {
   font-family: "Berkshire Swash", cursive;
 }
 
 body {
-  background-color: white;
+  background-color: #CEE3F2;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
@@ -107,9 +108,6 @@ footer p {
 #content {
   max-width: 960px;
   margin: 0 auto;
-  background-color: #CEE3F2;
-}
-body {
   background-color: #CEE3F2;
 }
 
