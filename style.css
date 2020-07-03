@@ -125,7 +125,7 @@ section .sidebar {
 }
 .sidebar {
   grid-column: 1/2;
-  grid-row: 1/11;
+  grid-row: 1/5;
   background-color: #262644;
   color: #CEE3F2;
   padding: 15px;
