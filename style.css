@@ -124,7 +124,6 @@ section .sidebar {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-rows: auto 1em auto 1em auto;
-  justify-items: center;
 }
 .sidebar {
   grid-column: 1/2;
@@ -142,11 +141,16 @@ section .sidebar {
 .sidebar a:hover {
   color: #CEE3F2;
 }
+.sidebar-img {
+  width: 150px;
+}
 .new-chapter p {
   text-indent: 0px;
+  text-align: center;
 }
 .new-character p {
   text-indent: 0px;
+  text-align: center;
 }
 .home-illustration {
   grid-column: 2/5;
