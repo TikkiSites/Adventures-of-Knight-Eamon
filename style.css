@@ -134,17 +134,14 @@ footer p {
   padding: 0 20px 0 0;
 }
 section .sidebar {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-rows: auto 1em auto 1em auto;
-}
+  
 .sidebar {
   grid-column: 1/2;
   grid-row: 1/12;
   background-color: #D8ADFF;
   color: #451143;
   padding: 15px;
-  margin: fill;
+  margin: 0;
   text-align: center;
   border-top: 5px double #451143;
   border-right: 5px double #451143;
@@ -251,15 +248,12 @@ section .sidebar {
   background-color: #D8ADFF;
   color: #451143;
   padding: 15px;
-  margin: fill;
+  margin: 0;
   text-align: left;
   border-top: 5px double #451143;
   border-right: 5px solid #451143;
   border-bottom: 5px solid #451143;
   border-left: 5px double #451143;
-  
-  display: grid;
-  grid-template-rows: 1.75em repeat(3, auto);
 }
 .story-intro-img-1, .story-intro-img-2 {
   margin: 0 auto;
@@ -268,8 +262,8 @@ section .sidebar {
 }
 
 .index-heading {
-  grid-row: 1/2;
   text-align: center;
+  margin: 10px 0 -10px;
 }
 .index-heading a {
   text-decoration: none;
