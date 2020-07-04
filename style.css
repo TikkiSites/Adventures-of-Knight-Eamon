@@ -511,6 +511,8 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 10em);
   grid-template-rows: repeat(3, 10em);
+  align-items: center;
+  justify-items: center;
 }
 .gallery-head {
   grid-column: 2/3;
