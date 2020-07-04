@@ -316,4 +316,10 @@ ul {
   text-indent: 0;
   text-align: center;
 }
-.next-chapter
+.next-chapter, .previous-chapter {
+  width: 100px;
+}
+.next-chapter {
+  grid-column: 3/4;
+  grid-row: 4/5
+}
