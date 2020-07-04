@@ -173,8 +173,8 @@ section .sidebar {
 }
 .home-illustration img {
   border: 5px solid #262644;
-  border-top: 5px double #262644;
-  border-right: 5px double #262644;
+  border-top: 5px solid #494983;
+  border-right: 5px solid #494983;
   border-bottom: 5px solid #262644;
   border-left: 5px solid #262644;
   margin: 0 auto;
