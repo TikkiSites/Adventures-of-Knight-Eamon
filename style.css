@@ -75,7 +75,7 @@ nav a:hover {
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
 }
-nav a:visited {
+nav a:visited, .index-chapter a:visited {
   color: #FFDF8E;
 }
 nav a:visited:hover {
@@ -155,7 +155,7 @@ section .sidebar {
   color: #451143;
   text-decoration: none;
 }
-.sidebar a:hover {
+.sidebar a:hover, .index-chapter a:hover, .index-heading a:hover, .character-names-heading a:hover {
   color: #E2EDF3;
 }
 .sidebar-img {
@@ -259,7 +259,7 @@ section .sidebar {
   border-left: 5px double #451143;
   
   display: grid;
-  grid-template-rows: repeat(3, auto)
+  grid-template-rows: 1.75em repeat(3, auto);
 }
 .story-intro-img-1, .story-intro-img-2 {
   margin: 0 auto;
