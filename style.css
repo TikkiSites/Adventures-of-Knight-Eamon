@@ -404,6 +404,7 @@ form {
   padding: 1em;
   border: 3px solid #262644;
   border-radius: 1em;
+  background-color: #D8ADFF;
 }
 form ul {
   list-style: none;
@@ -416,12 +417,13 @@ form li + li {
 label {
   display: inline-block;
   width: 90px;
+  font: 
   text-align: right;
 }
 input,
 textarea {
   font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  width: 300px;
+  width: 250px;
   box-sizing: boarder-box;
   border: 1px solid #262644;
 }
@@ -436,5 +438,7 @@ textarea {
   padding-left: 90px;
 }
 button {
-  margin-left: .5em;
+  margin-left: 7em;
+  color: #D8ADFF;
+  background-color: #262644;
 }
