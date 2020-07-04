@@ -38,7 +38,7 @@ header {
   align-items: center;
 }
 img {
-  max-width: 300px;
+  
 }
 .logo {
   background-color: #E2EDF3;
@@ -175,11 +175,11 @@ section .sidebar {
   grid-row: 1/4;
   margin: 0 auto;
   padding: 15px;
-  hight: 90%;
+  text-align: center;
 }
-.home-illustration img {
+.home-illustration img, .story-intro-img-1 img, .story-intro-img-2 img {
   border: 5px solid #262644;
-  margin: 0 auto;
+  width: 90%;
 }
 .home-heading-1 {
   grid-column: 2/5;
@@ -258,8 +258,4 @@ section .sidebar {
   border-bottom: 5px solid #451143;
   border-left: 5px double #451143;
 }
-.story-intro-img-1, .story-intro-img-2 {
-  border: 5px solid #262644;
-  margin: 0 auto;
-  width: 90%;
-}
+.story-
