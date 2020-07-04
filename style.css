@@ -216,5 +216,31 @@ section .sidebar {
 }
 
 .story-intro-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 1em;
+  padding: 0 20px 0 0;
+}
+.story-intro-img-1 {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+.story-intro-heading-1 {
+  
+}
+.story-intro-paragraph-1 {
+  
+}
+.story-intro-img-2 {
+  
+}
+.story-intro-heading-2 {
+  
+}
+.story-intro-paragraph-2 {
+  
+}
+.chapter-index-sidebar {
   
 }
