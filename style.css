@@ -369,7 +369,6 @@ ul {
 .name-list-grid p {
   grid-column: 1/4;
   grid-row: 1/2;
-  margin: 25px 50px -10px;
 }
 .name-meanings-head {
   grid-column: 1/4;
@@ -378,7 +377,6 @@ ul {
 .name-meanings-list {
   grid-column: 1/4;
   grid-row: 3/4;
-  
 }
 .kingdom-name-meanings-head {
   grid-column: 1/4;
@@ -392,6 +390,6 @@ ul {
   grid-column: 1/4;
   grid-row: 6/7;
 }
-.name-list-grid p, .name-meanings-head, .name-meanings-list 
-margin: 25px 50px -10px;
+.name-list-grid p, .name-meanings-head, .name-meanings-list, .kingdom-name-meanings-head, .kingdom-name-meanings-list, .name-list-grid .disclaimer {
+margin: 25px 50px ;
 }
