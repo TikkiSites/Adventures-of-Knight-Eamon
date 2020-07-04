@@ -303,7 +303,7 @@ ul {
 }
 .book-title h3 {
   grid-row: 2/3;
-  margin: 10px 0 -10px 0;
+  margin: 20px 0 -10px 0;
 }
 .book-title h2 {
   grid-row: 3/4;
