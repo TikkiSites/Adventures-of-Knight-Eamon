@@ -366,4 +366,16 @@ ul {
   margin: 50px;
 }
 
-
+.name-list-grid p {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.name-meanings-head {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: center;
+}
+.name-list-grid .disclaimer {
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
