@@ -369,13 +369,29 @@ ul {
 .name-list-grid p {
   grid-column: 1/4;
   grid-row: 1/2;
+  margin: 25px 50px -10px;
 }
 .name-meanings-head {
   grid-column: 1/4;
   grid-row: 2/3;
-  text-align: center;
+}
+.name-meanings-list {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  
+}
+.kingdom-name-meanings-head {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.kingdom-name-meanings-list {
+  grid-column: 1/4;
+  grid-row: 5/6;
 }
 .name-list-grid .disclaimer {
   grid-column: 1/4;
   grid-row: 6/7;
+}
+.name-list-grid p, .name-meanings-head, .name-meanings-list 
+margin: 25px 50px -10px;
 }
