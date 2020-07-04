@@ -390,6 +390,20 @@ ul {
   grid-column: 1/4;
   grid-row: 6/7;
 }
-.name-list-grid p, .name-meanings-head, .name-meanings-list, .kingdom-name-meanings-head, .kingdom-name-meanings-list, .name-list-grid .disclaimer {
-margin: 25px 50px ;
+.name-list-grid p, .name-meanings-head, .name-meanings-list, .kingdom-name-meanings-head, .kingdom-name-meanings-list {
+margin: 25px 50px -15px;
 }
+.name-list-grid .disclaimer {
+  margin: 25px 50px 25px;
+}
+
+form {
+  /*center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
