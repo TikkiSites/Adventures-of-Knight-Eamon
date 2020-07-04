@@ -502,7 +502,7 @@ button {
 .gallery-content-grid {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(3, auto) 1fr;
   grid-gap: 1em;
 }
 .gallery-img-grid {
@@ -512,12 +512,12 @@ button {
   grid-template-columns: repeat(3, 10em);
   grid-template-rows: repeat(3, 10em);
 }
-.gallery-contact-grid h1 {
+.gallery-head {
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
 }
-.gallery-contact-grid p {
+.gallery-paragraph {
   grid-column: 2/3;
   grid-row: 2/3;
 }
