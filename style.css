@@ -291,11 +291,21 @@ ul {
   text-align: center;
 }
 
-.title-page-grid h2 {
+.title-page-grid h1 {
   grid-column: 1/4;
   grid-row: 1/2;
+  text-align: center;
 }
-.title-page-grid p {
+.book-title {
   grid-column: 1/4;
   grid-row: 2/3;
+  text-align: center;
+}
+.title-page-grid div {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.title-page-grid p {
+  text-indent: 0;
+  text-align: center;
 }
