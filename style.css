@@ -507,8 +507,17 @@ button {
 }
 .gallery-img-grid {
   grid-column: 2/3;
-  grid-row: 
+  grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 10em);
   grid-template-rows: repeat(3, 10em);
+}
+.gallery-contact-grid h1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+.gallery-contact-grid p {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
