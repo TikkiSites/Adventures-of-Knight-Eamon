@@ -321,7 +321,7 @@ ul {
   width: 100px;
 }
 .next-chapter {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  grid-column: 3/4;
+  grid-row: 5/6;
+  text-align: right;
 }
