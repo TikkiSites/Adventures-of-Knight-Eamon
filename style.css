@@ -308,8 +308,9 @@ ul {
 .book-title h2 {
   grid-row: 3/4;
 }
-.title-page-grid div {
+.title-page-info {
   grid-column: 1/4;
+  grid-row: 4/5;
   padding: 10px;
 }
 .title-page-grid p {
@@ -320,6 +321,5 @@ ul {
   width: 100px;
 }
 .next-chapter {
-  grid-column: 3/4;
-  grid-row: 4/5
+  grid-row: 5/6;
 }
