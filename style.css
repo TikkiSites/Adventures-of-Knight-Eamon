@@ -464,3 +464,28 @@ button {
   background-color: #262644;
 }
 
+.contact-heading-1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
+}
+.contact-heading-2 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.contact-paragraph {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+.contact-grid .disclamer {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.contact-form {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+.contact-img {
+  grid-tolumn: 4/5;
+  grid-row: 2/4;
+}
