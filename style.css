@@ -97,7 +97,9 @@ footer {
   color: #D8ADFF;
   background-color: #262644;
   display: grid;
+  padding: 10px;
   grid-template-columns: auto 80px 80px 80px;
+  grid-gap: 10px;
   align-items: center;
 }
 footer a {
@@ -105,12 +107,17 @@ footer a {
   color: #D8ADFF;
 }
 footer img {
-  backgournd-color: #E2EDF3;
   margin: 10px;
   height: 50px;
+  background-color: #E2EDF3;
+  border-radius: 50px;
+  border: 3px solid #D8ADFF; 
+  text-align: center;
+  padding: 3px;
 }
 footer p {
   margin: 10px;
+  text-indent: 0;
 }
 
 #content {
@@ -173,10 +180,6 @@ section .sidebar {
 }
 .home-illustration img {
   border: 5px solid #262644;
-  border-top: 5px solid #494983;
-  border-right: 5px solid #494983;
-  border-bottom: 5px solid #262644;
-  border-left: 5px solid #262644;
   margin: 0 auto;
 }
 .home-heading-1 {
