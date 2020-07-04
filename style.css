@@ -218,29 +218,44 @@ section .sidebar {
 .story-intro-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(5, auto);
   grid-gap: 1em;
   padding: 0 20px 0 0;
 }
 .story-intro-img-1 {
-  grid-column: 1/4;
+  grid-column: 1/2;
   grid-row: 1/3;
 }
 .story-intro-heading-1 {
-  
+  grid-column: 2/4;
+  grid-row: 1/2;
 }
 .story-intro-paragraph-1 {
-  
+  grid-column: 2/4;
+  grid-row: 2/3;
 }
 .story-intro-img-2 {
-  
+  grid-column: 3/4;
+  grid-row: 3/5;
 }
 .story-intro-heading-2 {
-  
+  grid-column: 1/3;
+  grid-row: 3/4;
 }
 .story-intro-paragraph-2 {
-  
+  grid-column: 1/3;
+  grid-row: 4/5;
 }
 .chapter-index-sidebar {
-  
+  grid-column: 4/5;
+  grid-row: 1/6;
+  background-color: #D8ADFF;
+  color: #451143;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 5px double #451143;
+  border-right: 5px double #451143;
+  border-bottom: 5px solid #451143;
+  border-left: 5px solid #451143;
 }
