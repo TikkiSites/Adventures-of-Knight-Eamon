@@ -287,6 +287,10 @@ ul {
   text-decoration: none;
   color: #451143;
 }
+.character-names-heading a:hover {
+  content: ">> Hovering >>"; /* You can add simple static text in CSS as well. */
+    position: inline-block;
+}
 .character-names-heading {
   text-align: center;
 }
