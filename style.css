@@ -398,7 +398,6 @@ margin: 25px 50px -15px;
 }
 
 form {
-  /*center the form on the page */
   margin: 0 auto;
   width: 400px;
   /* Form outline */
@@ -425,4 +424,17 @@ textarea {
   width: 300px;
   box-sizing: boarder-box;
   border: 1px solid #262644;
+}
+input:focus, textarea:focus {
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+.button {
+  padding-left: 90px;
+}
+button {
+  margin-left: .5em;
 }
