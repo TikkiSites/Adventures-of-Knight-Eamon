@@ -15,7 +15,7 @@ h3, h4 {
 }
 
 body {
-  background-color: #CEE3F2;
+  background-color: #E2EDF3;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 0;
@@ -62,7 +62,7 @@ nav ul {
   padding-inline-start: 0;
 }
 nav {
-  background-color: # FBDBE3;
+  background-color: #262644;
 }
 nav a {
   color: #D8ADFF;
@@ -94,7 +94,7 @@ nav a:visited:active {
   color: #262644;
 }
 footer {
-  color: #262644;
+  color: #D8ADFF;
   background-color: #262644;
   display: grid;
   grid-template-columns: auto 80px 80px 80px;
@@ -102,9 +102,10 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #262644;
+  color: #D8ADFF;
 }
 footer img {
+  backgournd-color: #E2EDF3;
   margin: 10px;
   height: 50px;
 }
@@ -115,7 +116,7 @@ footer p {
 #content {
   max-width: 960px;
   margin: 0 auto;
-  background-color: #CEE3F2;
+  background-color: #E2EDF3;
 }
 
 .home-grid {
@@ -145,10 +146,11 @@ section .sidebar {
   text-decoration: none;
 }
 .sidebar a:hover {
-  color: #CEE3F2;
+  color: #E2EDF3;
 }
 .sidebar-img {
   width: 90%;
+  border: 3px solid #451143;
 }
 .new-chapter p {
   text-indent: 0px;
