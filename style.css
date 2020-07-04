@@ -219,7 +219,7 @@ section .sidebar {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-gap: 1em;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 0;
 }
 .story-intro-img-1 {
   grid-column: 1/2;
@@ -275,8 +275,14 @@ section .sidebar {
 .index-book-1 {
   grid-row: 2/3;
 }
-.index-chapter a{
+ul {
+  list-style: none;
+}
+.index-chapter a {
   text-decoration: none;
-  text-indent: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.character-names-heading a {
+  grid-row: 3/4;
+  text-decoration: none;
 }
