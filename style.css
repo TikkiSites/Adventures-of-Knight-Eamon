@@ -139,7 +139,10 @@ section .sidebar {
   padding: 15px;
   margin: 0 auto;
   text-align: center;
-  border: 5px double #451143;
+  border-top: 5px double #451143;
+  border-right: 5px double #451143;
+  border-bottom: 5px solid #451143;
+  border-left: 5px solid #451143;
 }
 .sidebar a {
   color: #451143;
@@ -170,6 +173,10 @@ section .sidebar {
 }
 .home-illustration img {
   border: 5px solid #262644;
+  border-top: 5px double #262644;
+  border-right: 5px double #262644;
+  border-bottom: 5px solid #262644;
+  border-left: 5px solid #262644;
   margin: 0 auto;
 }
 .home-heading-1 {
