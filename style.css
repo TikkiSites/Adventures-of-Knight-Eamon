@@ -28,7 +28,8 @@ p {
   text-align: justify;
   margin: 10px 0 0 0;
 }
-p a, h2 a {
+p a,
+h2 a {
   text-decoration: none;
   color: #451143;
 }
@@ -72,14 +73,17 @@ nav a {
   color: #D8ADFF;
   text-decoration: none;
 }
-nav a:hover, p a:hover, h2 a:hover {
+nav a:hover,
+p a:hover,
+h2 a:hover {
   color: #FBDBE3;
   background-color: #451143;
   border: 1px solid #FBDBE3;
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
 }
-nav a:visited, .index-chapter a:visited {
+nav a:visited,
+.index-chapter a:visited {
   color: #FFDF8E;
 }
 nav a:visited:hover {
@@ -155,7 +159,10 @@ footer p {
   color: #451143;
   text-decoration: none;
 }
-.sidebar a:hover, .index-chapter a:hover, .index-heading a:hover, .character-names-heading a:hover {
+.sidebar a:hover,
+.index-chapter a:hover,
+.index-heading a:hover,
+.character-names-heading a:hover {
   color: #E2EDF3;
 }
 .sidebar-img {
@@ -177,7 +184,9 @@ footer p {
   padding: 15px;
   text-align: center;
 }
-.home-illustration img, .story-intro-img-1 img, .story-intro-img-2 img {
+.home-illustration img,
+.story-intro-img-1 img,
+.story-intro-img-2 img {
   border: 5px solid #262644;
   width: 90%;
 }
@@ -214,7 +223,8 @@ footer p {
   grid-row: 10/11;
 }
 
-.story-intro-grid, .title-page-grid {
+.story-intro-grid,
+.title-page-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, auto);
@@ -258,7 +268,8 @@ footer p {
   border-bottom: 5px solid #451143;
   border-left: 5px double #451143;
 }
-.story-intro-img-1, .story-intro-img-2 {
+.story-intro-img-1, 
+.story-intro-img-2 {
   margin: 0 auto;
   padding: 15px;
   text-align: center;
@@ -317,7 +328,8 @@ ul {
   text-indent: 0;
   text-align: center;
 }
-.next-chapter img, .previous-chapter img {
+.next-chapter img, 
+.previous-chapter img {
   width: 75px;
 }
 .next-chapter {
@@ -330,7 +342,9 @@ ul {
   grid-row: 5/6;
 }
 
-.chapter-novel-grid, .name-list-grid {
+.chapter-novel-grid,
+.name-list-grid,
+.contact-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, auto);
@@ -390,8 +404,12 @@ ul {
   grid-column: 1/4;
   grid-row: 6/7;
 }
-.name-list-grid p, .name-meanings-head, .name-meanings-list, .kingdom-name-meanings-head, .kingdom-name-meanings-list {
-margin: 25px 50px -15px;
+.name-list-grid p,
+.name-meanings-head,
+.name-meanings-list,
+.kingdom-name-meanings-head,
+.kingdom-name-meanings-list {
+  margin: 25px 50px -15px;
 }
 .name-list-grid .disclaimer {
   margin: 25px 50px 25px;
@@ -417,8 +435,9 @@ form li + li {
 label {
   display: inline-block;
   width: 90px;
-  font: 
+  font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: right;
+  color: #262644;
 }
 input,
 textarea {
@@ -427,7 +446,8 @@ textarea {
   box-sizing: boarder-box;
   border: 1px solid #262644;
 }
-input:focus, textarea:focus {
+input:focus, 
+textarea:focus {
   border-color: #000;
 }
 textarea {
@@ -438,7 +458,9 @@ textarea {
   padding-left: 90px;
 }
 button {
-  margin-left: 7em;
+  margin-left: 5.25em;
+  font-size: 1em;
   color: #D8ADFF;
   background-color: #262644;
 }
+
