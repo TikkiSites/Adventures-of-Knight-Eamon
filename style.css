@@ -499,3 +499,16 @@ button {
   padding: 25px
 }
 
+.gallery-content-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 1em;
+}
+.gallery-img-grid {
+  grid-column: 2/3;
+  grid-row: 
+  display: grid;
+  grid-template-columns: repeat(3, 10em);
+  grid-template-rows: repeat(3, 10em);
+}
