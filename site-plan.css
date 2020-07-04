@@ -9,8 +9,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #E2EDF3;
   --secondary-color: #451143;
-  --accent1-color: #FFDF8E;
-  --accent2-color: #F6B6C7;
+  --accent1-color: #D8ADFF;
+  --accent2-color: #FBDBE3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "UnifrakturCook", "New Rocker", cursive;
@@ -25,7 +25,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #E2EDF3;
   --nav-link-color: #FFDF8E;
   --nav-background-color: #262644;
-  --nav-hover-link-color: #F6B6C7;
+  --nav-hover-link-color: #FBDBE3;
   --nav-hover-background-color: #451143;
 }
 
