@@ -301,11 +301,19 @@ ul {
   grid-row: 2/3;
   text-align: center;
 }
+.book-title h3 {
+  grid-row: 2/3;
+  margin: 10px 0 -10px 0;
+}
+.book-title h2 {
+  grid-row: 3/4;
+}
 .title-page-grid div {
   grid-column: 1/4;
-  grid-row: 4/5;
+  padding: 10px;
 }
 .title-page-grid p {
   text-indent: 0;
   text-align: center;
 }
+.next-chapter
