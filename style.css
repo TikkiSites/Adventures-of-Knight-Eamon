@@ -252,10 +252,17 @@ section .sidebar {
   color: #451143;
   padding: 15px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   border-top: 5px double #451143;
   border-right: 5px solid #451143;
   border-bottom: 5px solid #451143;
   border-left: 5px double #451143;
 }
-.story-
+.story-intro-img-1, .story-intro-img-2 {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+.index {
+  
+}
