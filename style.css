@@ -28,6 +28,10 @@ p {
   text-align: justify;
   margin: 10px 0 0 0;
 }
+p a {
+  text-decoration: none;
+  color: #451143;
+}
 header {
   font-family: "UnifrakturCook", "New Rocker", cursive;
   font-size: 1.5em;
@@ -68,7 +72,7 @@ nav a {
   color: #D8ADFF;
   text-decoration: none;
 }
-nav a:hover {
+nav a:hover, p a:hover {
   color: #FBDBE3;
   background-color: #451143;
   border: 1px solid #FBDBE3;
@@ -133,8 +137,7 @@ footer p {
   grid-gap: 1em;
   padding: 0 20px 0 0;
 }
-section .sidebar {
-  
+
 .sidebar {
   grid-column: 1/2;
   grid-row: 1/12;
