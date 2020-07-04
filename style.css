@@ -464,6 +464,9 @@ button {
   background-color: #262644;
 }
 
+.contact-grid {
+  margin: 25px
+}
 .contact-heading-1 {
   grid-column: 1/5;
   grid-row: 1/2;
@@ -472,12 +475,14 @@ button {
 .contact-heading-2 {
   grid-column: 1/4;
   grid-row: 2/3;
+  margin: 10px 0 -30px;
 }
 .contact-paragraph {
   grid-column: 1/4;
   grid-row: 3/4;
+  margin: 10px 0 -30px;
 }
-.contact-grid .disclamer {
+.contact-grid .disclaimer {
   grid-column: 1/4;
   grid-row: 4/5;
 }
@@ -488,4 +493,5 @@ button {
 .contact-img {
   grid-tolumn: 4/5;
   grid-row: 2/4;
+  text-align: center;
 }
