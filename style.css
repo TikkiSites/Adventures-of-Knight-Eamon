@@ -503,8 +503,15 @@ button {
 .gallery-content-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto) 1fr;
+  grid-template-rows: repeat(4, auto);
   grid-gap: 1em;
+}
+.gallery-head {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.gallery-head h1{
+  margin
 }
 .gallery-img-grid {
   grid-column: 2/3;
@@ -515,12 +522,6 @@ button {
   grid-template-rows: repeat(3, 10em);
   align-items: center;
   justify-items: center;
-}
-.gallery-head {
-  
-}
-.gallery-paragraph {
-  
 }
 .gallery-img-grid img {
   max-width: 90%;
