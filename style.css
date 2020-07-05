@@ -8,7 +8,7 @@
 h1, h2, h5, h6 {
   color: #262644;
   font-family: "UnifrakturCook", "New Rocker", cursive;
-  margin: 10px 0 -10px 15px;
+  margin: 10px 0 -10px;
 }
 h3, h4 {
   font-family: "Berkshire Swash", cursive;
@@ -27,7 +27,6 @@ p {
   text-indent: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: justify;
-  margin: 15px;
 }
 p a,
 h2 a {
