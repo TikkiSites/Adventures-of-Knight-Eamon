@@ -446,7 +446,6 @@ input,
 textarea {
   font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   width: 250px;
-  
   border: 1px solid #262644;
 }
 input:focus, 
@@ -493,7 +492,7 @@ button {
   grid-row: 5/6;
 }
 .contact-img {
-  grid-tolumn: 4/5;
+  grid-column: 4/5;
   grid-row: 2/5;
   text-align: center;
 }
@@ -522,7 +521,7 @@ button {
   grid-column: 2/3;
   grid-row: 3/4;
   margin: 0 1em;
-  max-width: 550;
+  max-width: 550px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
