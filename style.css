@@ -13,7 +13,7 @@ h1, h2, h5, h6 {
 h3, h4 {
   font-family: "Berkshire Swash", cursive;
   margin: 10px 0 0;
-  color: #451143;
+  color: #262644;
 }
 
 body {
@@ -270,6 +270,10 @@ footer p {
   border-bottom: 5px solid #451143;
   border-left: 5px double #451143;
 }
+.chapter-index-sidebar h2,
+.chapter-index-sidebar h3 {
+  color: #451143;
+}
 .story-intro-img-1, 
 .story-intro-img-2 {
   margin: 0 auto;
@@ -351,7 +355,6 @@ footer p {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, auto);
   grid-gap: 1em;
-
 }
 .chapter-novel-img {
   grid-column: 2/4;
