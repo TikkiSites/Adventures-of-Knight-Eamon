@@ -367,22 +367,20 @@ footer p {
   grid-column: 2/4;
   grid-row: 2/3;
   text-align: center;
-  margin: -20px 0 -10px 0;
 }
 .chapter-heading {
   grid-column: 2/4;
   grid-row: 3/4;
   text-align: center;
-  margin: 0 0 -10px 0;
 }
 .chapter-novel-paragraph {
   grid-column: 2/4;
   grid-row: 4/5;
+  margin: 0 1em;
 }
 
 .chapter-soon {
-  padding: 50px;
-  margin: 50px;
+  margin: 2em;
 }
 
 .name-list-grid p {
