@@ -502,7 +502,7 @@ button {
 
 .gallery-content-grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: 100px auto 100px;
   grid-template-rows: repeat(3, auto) 1fr;
   grid-gap: 1em;
 }
