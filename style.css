@@ -496,7 +496,8 @@ button {
   text-align: center;
 }
 .contact-img img{
-  padding: 25px
+  padding: 25px;
+  width: 150px;
 }
 
 .gallery-content-grid {
