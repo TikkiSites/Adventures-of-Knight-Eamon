@@ -524,3 +524,7 @@ button {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+.gallery-img-grid img {
+  max-width: 90%;
+  max-height: 90%;
+}
