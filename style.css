@@ -502,13 +502,14 @@ button {
 
 .gallery-content-grid {
   display: grid;
-  grid-template-columns: 100px auto 100px;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto) 1fr;
   grid-gap: 1em;
 }
 .gallery-img-grid {
   grid-column: 2/3;
   grid-row: 3/4;
+  max-width: 30em;
   display: grid;
   grid-template-columns: repeat(3, 10em);
   grid-template-rows: repeat(3, 10em);
@@ -516,13 +517,10 @@ button {
   justify-items: center;
 }
 .gallery-head {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  text-align: center;
+  
 }
 .gallery-paragraph {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  
 }
 .gallery-img-grid img {
   max-width: 90%;
