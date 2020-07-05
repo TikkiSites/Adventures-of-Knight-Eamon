@@ -8,10 +8,11 @@
 h1, h2, h5, h6 {
   color: #262644;
   font-family: "UnifrakturCook", "New Rocker", cursive;
-  margin: 10px 0 -10px;
+  margin: 10px 0 -10px 15px;
 }
 h3, h4 {
   font-family: "Berkshire Swash", cursive;
+  margin: 10px 0 0;
 }
 
 body {
@@ -26,7 +27,7 @@ p {
   text-indent: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: justify;
-  margin: 10px 0 0 0;
+  margin: 15px;
 }
 p a,
 h2 a {
@@ -181,7 +182,7 @@ footer p {
   grid-column: 2/5;
   grid-row: 1/4;
   margin: 0 auto;
-  padding: 15px;
+  padding: 25px 15px;
   text-align: center;
 }
 .home-illustration img,
