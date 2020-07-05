@@ -446,7 +446,7 @@ input,
 textarea {
   font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   width: 250px;
-  box-sizing: boarder-box;
+  
   border: 1px solid #262644;
 }
 input:focus, 
