@@ -502,13 +502,14 @@ button {
 
 .gallery-content-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: repeat(2, auto);
   grid-gap: 1em;
 }
 .gallery-head {
   grid-column: 2/3;
   grid-row: 1/2;
+  margin: 0 0 -50px;
 }
 .gallery-head h1{
   margin: 25px 15px 10px;
@@ -526,4 +527,5 @@ button {
 .gallery-img-grid img {
   max-width: 90%;
   max-height: 90%;
+  border: 3px solid #262644;
 }
