@@ -74,6 +74,10 @@ nav a {
   color: #D8ADFF;
   text-decoration: none;
 }
+nav a:visited,
+.index-chapter a:visited {
+  color: #FFDF8E;
+}
 nav a:hover,
 p a:hover,
 h2 a:hover {
@@ -83,22 +87,7 @@ h2 a:hover {
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
 }
-nav a:visited,
-.index-chapter a:visited {
-  color: #FFDF8E;
-}
-nav a:visited:hover {
-  color: #FBDBE3;
-  background-color: #451143;
-  border: 1px solid #F6B6C7;
-  padding: 10px;
-  box-shadow: 5px 5px 5px #999; 
-}
 nav a:active {
-  background-color: #FFDF8E;
-  color: #262644;
-}
-nav a:visited:active {
   background-color: #FFDF8E;
   color: #262644;
 }
