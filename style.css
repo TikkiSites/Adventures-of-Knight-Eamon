@@ -87,9 +87,28 @@ h2 a:hover {
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
 }
-nav a:active {
+nav a:active,
+.nav-dropdown-content {
   background-color: #FFDF8E;
   color: #262644;
+}
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  color: #262644;
+  background-color: # 451143;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+  padding: 10px;
+  z-index:1;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
 }
 
 footer {
