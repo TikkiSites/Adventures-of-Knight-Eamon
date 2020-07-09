@@ -99,14 +99,16 @@ nav a:active,
 .nav-dropdown-content {
   display: none;
   position: absolute;
-  color: #262644;
   background-color: #451143;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
   padding: 10px;
   z-index:1;
 }
-
+.nav-dropdown-content a {
+  color: #FBDBE3;
+  font-family: "Berkshire Swash", cursive;
+}
 .nav-dropdown:hover .nav-dropdown-content {
   display: block;
 }
@@ -542,3 +544,22 @@ button {
   max-height: 90%;
   border: 3px solid #262644;
 }
+
+/* Tooltip for arrows */
+.next-chapter {
+  position: relative;
+  displtay: inline-block;
+  border-bottom: 1px dotted black; 
+}
+.next-chapter .next-chapter-tooltip {
+  visibility: hidden;
+  width; 120px;
+  backtound-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
