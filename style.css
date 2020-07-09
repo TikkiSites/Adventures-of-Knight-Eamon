@@ -28,6 +28,7 @@ p {
   text-indent: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: justify;
+  padding: 0 1em;
 }
 p a,
 h2 a {
