@@ -547,12 +547,14 @@ button {
 
 /* Tooltip for arrows */
 .next-chapter,
-.previous-chapter {
+.previous-chapter,
+.index-icon {
   position: relative;
   displtay: inline-block;
 }
 .next-chapter .next-chapter-tooltip,
-.previous-chapter .previous-chapter-tooltip {
+.previous-chapter .previous-chapter-tooltip,
+.index-icon .index-icon-tooltip {
   visibility: hidden;
   width; 120px;
   background-color: #262644;
@@ -564,7 +566,8 @@ button {
   z-index: 1;
 }
 .next-chapter:hover .next-chapter-tooltip,
-.previous-chapter:hover .previous-chapter-tooltip {
+.previous-chapter:hover .previous-chapter-tooltip
+.index-icon:hover .index-icon-tooltip {
   visibility: visible;
   width: 120px;
   bottom: 100%;
