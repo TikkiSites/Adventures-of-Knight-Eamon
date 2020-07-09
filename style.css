@@ -540,13 +540,11 @@ button {
 .gallery-img-grid {
   grid-column: 2/3;
   grid-row: 3/4;
-  margin: 0 1em;
+  margin: 0 auto;
   max-width: 550px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  align-items: center;
-  justify-items: center;
 }
 .gallery-img-grid img {
   max-width: 90%;
