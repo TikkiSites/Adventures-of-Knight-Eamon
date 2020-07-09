@@ -545,11 +545,16 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 .gallery-img-grid img {
   max-width: 90%;
   max-height: 90%;
   border: 3px solid #262644;
+}
+.galler-img-grid a {
+  text-align: center;
 }
 
 /* Tooltip for arrows */
