@@ -102,7 +102,7 @@ nav a:active,
   position: absolute;
   background-color: #451143;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 10px;
   z-index:1;
 }
@@ -559,13 +559,13 @@ button {
 .previous-chapter,
 .index-icon {
   position: relative;
-  displtay: inline-block;
+  display: inline-block;
 }
 .next-chapter .next-chapter-tooltip,
 .previous-chapter .previous-chapter-tooltip,
 .index-icon .index-icon-tooltip {
   visibility: hidden;
-  width; 120px;
+  width: 120px;
   background-color: #262644;
   color: #E2EDF3;
   text-align: center;
