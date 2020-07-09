@@ -358,6 +358,14 @@ footer p {
   grid-column: 2/3;
   grid-row: 5/6;
 }
+.index-icon {
+  grid-column: 2/4;
+  grid-row: 5/6;
+  text-align: center;
+}
+.index-icon img {
+  width: 50px;
+}
 
 .chapter-novel-grid,
 .name-list-grid,
@@ -566,7 +574,7 @@ button {
   z-index: 1;
 }
 .next-chapter:hover .next-chapter-tooltip,
-.previous-chapter:hover .previous-chapter-tooltip
+.previous-chapter:hover .previous-chapter-tooltip,
 .index-icon:hover .index-icon-tooltip {
   visibility: visible;
   width: 120px;
