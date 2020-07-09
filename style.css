@@ -553,9 +553,6 @@ button {
   max-height: 90%;
   border: 3px solid #262644;
 }
-.galler-img-grid a {
-  text-align: center;
-}
 
 /* Tooltip for arrows */
 .next-chapter,
