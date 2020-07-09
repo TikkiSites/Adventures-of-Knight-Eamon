@@ -74,7 +74,7 @@ nav a {
   color: #D8ADFF;
   text-decoration: none;
 }
-nav a:visited,
+.active-page,
 .index-chapter a:visited {
   color: #FFDF8E;
 }
@@ -91,6 +91,7 @@ nav a:active {
   background-color: #FFDF8E;
   color: #262644;
 }
+
 footer {
   color: #D8ADFF;
   background-color: #262644;
