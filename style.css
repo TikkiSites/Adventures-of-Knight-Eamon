@@ -88,7 +88,7 @@ h2 a:hover {
   box-shadow: 5px 5px 5px #999;
 }
 nav a:active,
-.nav-dropdown-content {
+.nav-dropdown-content a:hover {
   background-color: #FFDF8E;
   color: #262644;
 }
@@ -100,7 +100,7 @@ nav a:active,
   display: none;
   position: absolute;
   color: #262644;
-  background-color: # 451143;
+  background-color: #451143;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
   padding: 10px;
