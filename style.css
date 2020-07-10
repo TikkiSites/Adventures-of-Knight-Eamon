@@ -30,6 +30,10 @@ p {
   text-align: justify;
   padding: 0 1em;
 }
+.chapter-division {
+  text-indent: 0;
+  text-align: center;
+}
 p a,
 h2 a {
   text-decoration: none;
