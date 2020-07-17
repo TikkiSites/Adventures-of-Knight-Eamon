@@ -79,9 +79,11 @@ nav a {
   color: #D8ADFF;
   text-decoration: none;
 }
-.active-page,
-.index-chapter a:visited {
+.active-page {
   color: #FFDF8E;
+}
+.index-chapter a:visited {
+  color: #ED5A7E;
 }
 nav a:hover,
 p a:hover,
