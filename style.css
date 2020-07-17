@@ -526,6 +526,20 @@ button {
   padding: 25px;
   width: 150px;
 }
+/* form feedback */
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  display: none;
+}
+.moveDown {
+  margin-top: 3em;
+}
+/* end form feedback */
 
 .gallery-content-grid {
   display: grid;
