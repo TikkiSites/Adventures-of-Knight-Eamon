@@ -529,12 +529,13 @@ button {
 /* form feedback */
 #feedback {
   background-color: antiquewhite;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: center;
+  margin-left: 5.25em;
+  font-size: 1em;
+  color: #D8ADFF;
+  background-color: #262644;
   padding: .5em;
-  
+  display: ;
 }
 .moveDown {
   margin-top: 3em;
