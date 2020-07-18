@@ -528,13 +528,17 @@ button {
 }
 /* form feedback */
 #feedback {
-  
+  grid-column: 1/5;
+  grid-row: 5/6;
+  margin: 0 auto;
+  z-index: 2;
+  max-height: 1.5em;
   margin-left: 5.25em;
   font-size: 1em;
   color: #D8ADFF;
   background-color: #262644;
   padding: .5em;
-  display: ;
+  display: none;
 }
 .moveDown {
   margin-top: 3em;
