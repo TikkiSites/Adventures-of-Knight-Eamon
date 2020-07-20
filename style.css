@@ -677,8 +677,8 @@ button {
 }
 /* End lightbox styling */
 
-audio {
-  padding: 10px;
-  color: #FBDBE3;
-  max-height: 15px;
+.play-pause {
+  color: #E2EDF3;
+  background-color: #D8ADFF;
+  margin: 5px;
 }
