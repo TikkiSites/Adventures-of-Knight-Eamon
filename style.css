@@ -150,10 +150,15 @@ footer p {
   text-indent: 0;
 }
 .music-credit {
-  margin: 5px;
+  margin: -10px 5px 5px;
   text-indent: 0;
   grid-column: 1;
   grid-row: 2;
+}
+.play-pause {
+  color: #451143;
+  background-color: #D8ADFF;
+  margin: 5px;
 }
 
 #content {
@@ -676,9 +681,3 @@ button {
   display: block;
 }
 /* End lightbox styling */
-
-.play-pause {
-  color: #E2EDF3;
-  background-color: #D8ADFF;
-  margin: 5px;
-}
