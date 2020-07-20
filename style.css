@@ -680,4 +680,5 @@ button {
 audio {
   padding: 10px;
   color: #FBDBE3;
+  max-height: 15px;
 }
