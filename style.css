@@ -148,6 +148,7 @@ footer img {
 footer p {
   margin: 10px;
   text-indent: 0;
+  text-align: left;
 }
 .music-credit {
   margin: -15px 5px 5px;
