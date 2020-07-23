@@ -425,11 +425,17 @@ footer p {
   margin: 0 1em;
 }
 .chapter-comic-103-grid {
-  grid-column: 2/4;
-  gris-row: 4/5;
+  grid-column: 2/5;
+  grid-row: 4/5;
   dislplay: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat (8, auto);
+  grid-gap: 1em;
+  margin: 0 auto;
+}
+.chapter-comic-103-grid img {
+  width: 90%;
+  text-align: center;
 }
 
 .chapter-soon {
