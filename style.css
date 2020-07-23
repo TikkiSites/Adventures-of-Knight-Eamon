@@ -424,7 +424,9 @@ footer p {
   grid-row: 4/5;
   margin: 0 1em;
 }
-.chapter-comic-103 {
+.chapter-comic-103-grid {
+  grid-column: 2/4;
+  gris-row: 4/5;
   dislplay: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat (8, auto);
