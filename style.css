@@ -429,6 +429,7 @@ footer p {
   grid-row: 4/5;
   padding: 1em;
   background-color: #262644;
+  border: 10px solid #E2EDF3;
 }
 .chapter-comic-103-grid img {
   max-width: 100%;
