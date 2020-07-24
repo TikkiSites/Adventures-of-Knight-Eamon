@@ -368,7 +368,8 @@ footer p {
   text-align: center;
 }
 .next-chapter img, 
-.previous-chapter img {
+.previous-chapter img,
+.next-chapter-title-page img {
   width: 90px;
 }
 .index-icon img {
@@ -387,6 +388,11 @@ footer p {
   grid-column: 3/4;
   grid-row: 5/6;
   text-align: center;
+}
+.next-chapter-title-page {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  text-align: right;
 }
 
 .name-list-grid,
@@ -644,13 +650,15 @@ button {
 /* Tooltip for arrows */
 .next-chapter,
 .previous-chapter,
-.index-icon {
+.index-icon,
+.next-chapter-title-page {
   position: relative;
   display: inline-block;
 }
 .next-chapter .next-chapter-tooltip,
 .previous-chapter .previous-chapter-tooltip,
-.index-icon .index-icon-tooltip {
+.index-icon .index-icon-tooltip,
+.next-chapter-title-page .next-chapter-title-page-tooltip {
   visibility: hidden;
   width: 120px;
   background-color: #262644;
@@ -663,7 +671,8 @@ button {
 }
 .next-chapter:hover .next-chapter-tooltip,
 .previous-chapter:hover .previous-chapter-tooltip,
-.index-icon:hover .index-icon-tooltip {
+.index-icon:hover .index-icon-tooltip,
+.next-chapter-title-page:hover .next-chapter-title-page-tooltip {
   visibility: visible;
   width: 120px;
   bottom: 100%;
