@@ -564,14 +564,20 @@ button {
   padding: 25px;
   width: 150px;
 }
+.network-logos {
+  grid-column: 2/4;
+  grid-row: 5/6;
+  text-align: center;
+}
 .network-logos img{
   margin: 10px;
   height: 80px;
 }
 .upwork img{
-  grid-golumn: 2/4;
-  grid-row: 5/6;
-  
+  height: 90px;
+}
+.network-logos a{
+  text-decoration: none;
 }
 /* form feedback */
 #feedback {
