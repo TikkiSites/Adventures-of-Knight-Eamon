@@ -125,9 +125,9 @@ footer {
   background-color: #262644;
   display: grid;
   padding: 10px;
-  grid-template-columns: auto 80px 80px;
+  grid-template-columns: auto 100px 80px 80px 80px;
   grid-template-rows: repeat(2, auto);
-  grid-gap: 10px;
+  grid-gap: 5px;
   align-items: center;
 }
 footer a {
