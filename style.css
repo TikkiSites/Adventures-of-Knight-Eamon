@@ -317,6 +317,7 @@ footer p {
 .index-heading {
   text-align: center;
   margin: 10px 0 -10px;
+  font-size: 2em;
 }
 .index-heading a {
   text-decoration: none;
