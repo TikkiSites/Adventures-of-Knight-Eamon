@@ -564,6 +564,10 @@ button {
   padding: 25px;
   width: 150px;
 }
+.network-logos img{
+  margin: 10px;
+  height: 50px;
+}
 /* form feedback */
 #feedback {
   grid-column: 1/5;
