@@ -566,7 +566,12 @@ button {
 }
 .network-logos img{
   margin: 10px;
-  height: 50px;
+  height: 80px;
+}
+.upwork img{
+  grid-golumn: 2/4;
+  grid-row: 5/6;
+  
 }
 /* form feedback */
 #feedback {
