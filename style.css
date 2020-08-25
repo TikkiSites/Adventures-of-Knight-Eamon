@@ -396,8 +396,7 @@ footer p {
   text-align: right;
 }
 
-.name-list-grid,
-.contact-grid {
+.name-list-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, auto);
@@ -533,6 +532,10 @@ button {
 
 .contact-grid {
   margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, auto);
+  grid-gap: 1em;
 }
 .contact-heading-1 {
   grid-column: 1/5;
@@ -570,8 +573,21 @@ button {
   grid-row: 5/6;
   text-align: center;
 }
+.contact-heading-3 {
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+.contact-paragraph-2 {
+  grid-column: 1/5;
+  grid-row: 7/8;
+}
+.social-logos {
+  grid-column: 2/4;
+  grid-row: 8/9;
+  text-align: center;
+}
 .network-logos img,
-.{
+.social-logos img {
   margin: 10px;
   height: 80px;
 }
