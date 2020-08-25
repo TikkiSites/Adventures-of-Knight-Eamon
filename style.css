@@ -125,7 +125,7 @@ footer {
   background-color: #262644;
   display: grid;
   padding: 10px;
-  grid-template-columns: auto 100px 80px 80px 80px;
+  grid-template-columns: auto 100px 60px 60px 60px 60px;
   grid-template-rows: repeat(2, auto);
   grid-gap: 5px;
   align-items: center;
@@ -137,7 +137,7 @@ footer a {
 }
 footer img {
   margin: 10px;
-  height: 50px;
+  height: 40px;
   background-color: #E2EDF3;
   border-radius: 50px;
   border: 3px solid #D8ADFF; 
@@ -570,14 +570,16 @@ button {
   grid-row: 5/6;
   text-align: center;
 }
-.network-logos img{
+.network-logos img,
+.{
   margin: 10px;
   height: 80px;
 }
 .upwork img{
   height: 90px;
 }
-.network-logos a{
+.network-logos a,
+.social-logos a {
   text-decoration: none;
 }
 /* form feedback */
