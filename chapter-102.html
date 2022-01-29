@@ -32,6 +32,25 @@
         </nav>
       </header>
       
+      <div>
+        <p>
+            For a more immersive experiance, listen to music while reading along.
+          </p>
+          <button class="play-pause" onclick="playVid()" type="button">Play Music</button>
+          <button class="play-pause" onclick="pauseVid()" type="button">Pause Music</button>
+          <audio id="myAudio">
+            <source src="https://cdn.glitch.com/7eb7f0ee-6a2f-4967-be9a-4476cba678d2%2Fbensound-adventure.mp3?v=1595115571086" type="audio/mpeg">
+          </audio>
+          <script>
+            var vid = document.getElementById("myAudio")
+            function playVid() {
+              vid.play();
+            }
+            function pauseVid() {
+              vid.pause();
+            }
+          </script>
+      </div>
       
       <main>
         <div class="chapter-novel-grid">
@@ -198,21 +217,7 @@
       <footer>
         <p>&copy; 2020 Adventures of Knight Eamon - Rachel Young</p>
         <p class="music-credit">Backgroud music: "Adventure" from www.bensound.com
-          <br>
-          <button class="play-pause" onclick="playVid()" type="button">Play Music</button>
-          <button class="play-pause" onclick="pauseVid()" type="button">Pause Music</button>
-          <audio id="myAudio" autoplay>
-            <source src="https://cdn.glitch.com/7eb7f0ee-6a2f-4967-be9a-4476cba678d2%2Fbensound-adventure.mp3?v=1595115571086" type="audio/mpeg">
-          </audio>
-          <script>
-            var vid = document.getElementById("myAudio")
-            function playVid() {
-              vid.play();
-            }
-            function pauseVid() {
-              vid.pause();
-            }
-          </script>
+          
         </p>
         <a href="contact-me.html">
           <img src="https://cdn.glitch.com/7eb7f0ee-6a2f-4967-be9a-4476cba678d2%2Finitials_blue.png?v=1592028819942" alt="rmy icon">
