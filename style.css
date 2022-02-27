@@ -302,6 +302,10 @@ footer p {
   border-right: 5px solid #3F007A;
   border-bottom: 5px solid #3F007A;
   border-left: 5px solid #EBD6FF;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
 }
 .chapter-index-sidebar h2,
 .chapter-index-sidebar h3 {
@@ -315,16 +319,18 @@ footer p {
 }
 
 .index-heading {
-  text-align: center;
+  text-align: left;
   margin: 10px 0 -10px;
   font-size: 2em;
+  grid-column: 2/5;
 }
 .index-heading a {
   text-decoration: none;
   color: #451143;
 }
 .index-book-1 {
-  text-align: center;
+  text-align: left;
+  grid-column: 2/5;
 }
 .chapter-index-sidebar ul {
   list-style: none;
@@ -339,7 +345,8 @@ footer p {
   color: #451143;
 }
 .character-names-heading {
-  text-align: center;
+  text-align: left;
+  grid-column: 2/5;
 }
 
 .title-page-grid h1 {
