@@ -25,7 +25,7 @@ body {
   padding: 5px;
 }
 p {
-  text-indent: 30px;
+  /*text-indent: 30px;*/
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: justify;
   padding: 0 1em;
