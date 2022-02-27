@@ -206,11 +206,11 @@ footer p {
 }
 .new-chapter p {
   text-indent: 0px;
-  text-align: center;
+  text-align: left;
 }
 .new-character p {
   text-indent: 0px;
-  text-align: center;
+  text-align: left;
 }
 .home-illustration {
   grid-column: 2/5;
@@ -325,7 +325,6 @@ footer p {
 }
 .index-book-1 {
   text-align: left;
-  
 }
 .chapter-index-sidebar ul {
   list-style: none;
