@@ -322,7 +322,7 @@ footer p {
   text-align: left;
   margin: 10px 0 -10px;
   font-size: 2em;
-  grid-column: 1/4;
+  /*grid-column: 2/4;*/
 }
 .index-heading a {
   text-decoration: none;
@@ -330,7 +330,7 @@ footer p {
 }
 .index-book-1 {
   text-align: left;
-  grid-column: 1/4;
+  /*grid-column: 2/4;
 }
 .chapter-index-sidebar ul {
   list-style: none;
@@ -346,7 +346,7 @@ footer p {
 }
 .character-names-heading {
   text-align: left;
-  grid-column: 1/4;
+  grid-column: 2/4;
 }
 
 .title-page-grid h1 {
