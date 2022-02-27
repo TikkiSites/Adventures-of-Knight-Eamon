@@ -315,7 +315,7 @@ footer p {
 }
 
 .index-heading {
-  text-align: left;
+  text-align: center;
   margin: 10px 0 -10px;
   font-size: 2em;
 }
@@ -324,7 +324,7 @@ footer p {
   color: #451143;
 }
 .index-book-1 {
-  text-align: left;
+  text-align: center;
 }
 .chapter-index-sidebar ul {
   list-style: none;
