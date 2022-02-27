@@ -27,7 +27,7 @@ body {
 p {
   /*text-indent: 30px;*/
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  text-align: justify;
+  text-align: left;
   padding: 0 1em;
 }
 .chapter-division {
@@ -61,7 +61,7 @@ img {
   width: 95%;
   padding: 8px 0 0 0;
 }
-#nagigation {
+#navigation {
   
 }
 nav ul {
@@ -125,7 +125,7 @@ footer {
   background-color: #262644;
   display: grid;
   padding: 10px;
-  grid-template-columns: auto 100px 60px 60px 60px 60px;
+  grid-template-columns: auto /*100px 60px 60px 60px 60px*/;
   grid-template-rows: repeat(2, auto);
   grid-gap: 5px;
   align-items: center;
