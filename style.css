@@ -360,9 +360,10 @@ footer p {
   grid-row: 3/4;
 }
 .cover-art-img {
-  width: 100%;
+  width: 70%;
   border: 3px solid #451143;
   grid-column: 1/4;
+  margin: 0 auto;
   text-align: center;
 }
 .title-page-info {
