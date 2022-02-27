@@ -359,6 +359,13 @@ footer p {
 .book-title h2 {
   grid-row: 3/4;
 }
+.cover-art-img {
+  width: 100%;
+  border: 3px solid #451143;
+  grid-column: 1/4;
+  text-align: center;
+  
+}
 .title-page-info {
   grid-column: 1/4;
   grid-row: 4/5;
