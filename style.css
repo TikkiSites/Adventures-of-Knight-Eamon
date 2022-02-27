@@ -125,7 +125,7 @@ footer {
   background-color: #262644;
   display: grid;
   padding: 10px;
-  grid-template-columns: auto /*100px 60px 60px 60px 60px*/;
+  grid-template-columns: repeat(5, auto) /*100px 60px 60px 60px 60px*/;
   grid-template-rows: repeat(2, auto);
   grid-gap: 5px;
   align-items: center;
@@ -137,12 +137,12 @@ footer a {
 }
 footer img {
   margin: 10px;
-  height: 40px;
+  height: 40px /*40px*/;
   background-color: #E2EDF3;
   border-radius: 50px;
   border: 3px solid #D8ADFF; 
   text-align: center;
-  padding: 3px;
+  padding: 0px /*3px*/;
   grid-row: 1/3;
 }
 footer p {
