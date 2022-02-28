@@ -195,8 +195,11 @@ footer p {
 }
 .sidebar a:hover,
 .index-chapter a:hover,
+.book-index-chapter a:hover,
 .index-heading a:hover,
-.character-names-heading a:hover {
+.book-index-headinga a:hover,
+.character-names-heading a:hover,
+.book-character-names-heading a:hover {
   color: #E2EDF3;
 }
 .sidebar-img {
@@ -309,7 +312,9 @@ footer p {
   grid-gap: 1em;*/
 }
 .chapter-index-sidebar h2,
-.chapter-index-sidebar h3 {
+.chapter-index-sidebar h3,
+.book-chapter-index h2,
+.book-chapter-index h3 {
   color: #451143;
 }
 .story-intro-img-1, 
@@ -332,7 +337,7 @@ footer p {
   color: #451143;
 }
 .index-book-1,
-.book-index-heading {
+.book-index-book-1 {
   text-align: left;
   /*grid-column: 2/4;*/
 }
