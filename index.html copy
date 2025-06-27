@@ -85,7 +85,7 @@
       </main>
       
       <footer>
-        <p>&copy; 2020-2023 Adventures of Knight Eamon - Rachel Young</p>
+        <p>&copy; 2020-2025 Adventures of Knight Eamon - Rachel Young</p>
         <p class="music-credit">Backgroud music: "Birth of a Hero" from www.bensound.com
           <button class="play-pause" onclick="playVid()" type="button">Play Music</button>
           <button class="play-pause" onclick="pauseVid()" type="button">Pause Music</button>
